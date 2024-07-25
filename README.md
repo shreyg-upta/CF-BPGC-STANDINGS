@@ -1,8 +1,4 @@
-Here's a README format for your GitHub repository:
-
----
-
-# CF BITS Goa Standings Extension
+# CF-BPGC-Standings Chrome Extension
 
 This Chrome extension provides standings for BITS Goans in any Codeforces contest, problem set, or gym. It allows users to easily see their rank among fellow BITSians, making it a valuable tool for tracking competitive programming performance within the BITS Goa community.
 
