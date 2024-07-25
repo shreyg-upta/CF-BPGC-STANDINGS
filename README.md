@@ -18,7 +18,7 @@ This Chrome extension provides standings for BITS Goans in any Codeforces contes
    - Open Google Chrome and go to `chrome://extensions/`.
    - Enable Developer mode using the toggle switch at the top right corner of the page.
    - Click on "Load unpacked" from the options that appear.
-   - Select the cloned folder (`cf-cheater-flagger`) from your file system.
+   - Select the cloned folder (`CF-BPGC-Standings`) from your file system.
 
 3. **Ready to Use:**
    - The extension should now be loaded and ready to use. You can view standings by navigating to any Codeforces contest, problem set, or gym.
