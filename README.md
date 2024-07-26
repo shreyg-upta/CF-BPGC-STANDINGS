@@ -10,7 +10,7 @@ This Chrome extension provides standings for BITS Goans in any Codeforces contes
 1. **Clone the Repository:**
    - Clone the repository using Git:
      ```bash
-     git clone https://github.com/yourusername/cf-cheater-flagger.git
+     git clone https://github.com/<yourusername>/CF-BPGC-STANDINGS.git
      ```
    - Alternatively, download a ZIP file of this repository and extract it.
 
