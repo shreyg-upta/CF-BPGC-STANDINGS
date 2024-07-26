@@ -11,6 +11,10 @@ data = [
     name: "QSTP24",
     id: "9c014df584a90ac222d19d8c404ddeef",
   },
+  {
+    name: "BPGC23pups",
+    id: "12f97eb1df2815e63e9d0a6c1d542d90",
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", function () {
