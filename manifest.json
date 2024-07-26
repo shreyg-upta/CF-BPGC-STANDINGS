@@ -1,12 +1,12 @@
 {
-  "name": "CF BPGC Standings ",
-  "description": "This extension filters the standings for a given contest on Codeforces to show only active competitors from BPGC ",
+  "name": "CF BPGC Standings",
+  "description": "This extension filters the standings for a given contest on Codeforces to show only active competitors from BPGC",
   "version": "1.0.1",
-  "manifest_version" : 2,
+  "manifest_version": 3,
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["js/jquery.min.js", "js/background.js"]
+      "js": ["script.js"]
     }
   ],
   "icons": {
@@ -14,7 +14,7 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon16.png",
     "default_popup": "index.html",
     "default_title": "CF BPGC Standings"

@@ -1,34 +1,45 @@
 <!DOCTYPE html>
-<html lang="en" xml:lang="en">
+<html lang="en">
   <head>
-    <title>BPGC standings</title>
-    <!-- Bootstrap -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet" />
   </head>
-  <body>
-    <div id="found" class="container-fluid w-max-content">
-      <form id="countries" class="card card-signin form-div shadow  mt-3 bg-white rounded">
-          <select id="selectedCountry" class="form-control" required>
-            <option selected disabled>Select a Category</option>
-            <option value="2acacdb25f059dc84d6d7f833a0c8abb">BPGC '23</option>
-            <option value="8122dc0cffa3c2693f67c5e0ccc912b7">SPOJ Mentees</option>
-            <option value="9c014df584a90ac222d19d8c404ddeef">QSTP '24</option>
-          </select>
-      </form>
-      <div class="mx-auto m-3" style="display: block; width:140px;">
-        <button id="goToStandings" form="countries" class="btn btn-primary mx-auto m-2" type="button" style="width: 140px;">
-          Go to standings
-        </button>
-      </div>
+  <body class="bg-darkish">
+    <div id="options">
+      <table>
+        <tr>
+          <div id="bpgc23">
+            <button
+              id="bpgc23Button"
+              value="2acacdb25f059dc84d6d7f833a0c8abb"
+              class="btn btn-dark"
+            >
+              BPGC '23
+            </button>
+          </div>
+        </tr>
+        <tr>
+          <div id="spojmentees">
+            <button
+              id="spojMButton"
+              value="8122dc0cffa3c2693f67c5e0ccc912b7"
+              class="btn btn-dark"
+            >
+              SPOJ Mentees
+            </button>
+          </div>
+        </tr>
+      </table>
     </div>
-    <div id="notFound" class="container-fluid w-max-content">
-      <div>
-        Please enter a gym, a problemset or a contest in Codeforces.
-      </div>
-    </div>
+    <!-- <div id="notFound" class="container-fluid w-max-content small">
+      <div>Please enter a gym, a problemset or a contest in Codeforces.</div>
+    </div> -->
+    <!-- Include the external JavaScript file -->
+    <script src="script.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/background.js"></script>
   </body>
 </html>
