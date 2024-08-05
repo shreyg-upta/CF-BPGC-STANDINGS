@@ -1,3 +1,28 @@
 .w-max-content {
-    width: max-content;
+  width: max-content;
+}
+html,
+body {
+  background-color: #1f2120;
+  color: #ffffff; /* Ensure text is light for contrast */
+  overscroll-behavior: none;
+}
+
+* {
+  background-color: #1f2120; /* Ensure no element has a default white background */
+  border-color: #1f2120; /* Ensure borders match the background */
+}
+
+.btn-dark {
+  margin: 2px;
+}
+#options {
+  text-align: center;
+}
+
+#options > div > div {
+  display: inline-block;
+}
+.btn {
+  width: 95%;
 }
